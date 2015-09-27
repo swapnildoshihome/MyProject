@@ -1,0 +1,60 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Block Model</title>
+		<style>
+			html, body, div, h1, p {
+				margin: 0;
+				padding: 0;
+			}
+
+			.Outer {
+				background-color: #9CF;
+				width: 700px;
+				margin: 0 auto;
+				height: 400px;
+			}
+
+			#box, #box1 {
+				background-color: #B7D19C;
+				width: 230px;
+				padding: 50px;
+				border: black 2px solid;
+				display: inline-block;
+				/*margin: 25px;*/
+				display: inline-block;
+			}
+			h1 {
+				border-bottom: #000000 1px solid;
+			}
+
+		</style>
+	</head>
+	<body>
+		<div class="Outer">
+			<div id="box"></div>
+			<div id="box1"></div>
+		</div>
+
+		<script>
+			var newHeading = document.createElement("h1");
+			var newParagraph = document.createElement("p");
+			newHeading.innerHTML = "Did you know?";
+			newParagraph.innerHTML = "Maharana Pratap was almighty and brave of mewad.his capital was chittorgad fort.He fought his first war when he was just a child";
+			document.getElementById("box").appendChild(newHeading);
+			document.getElementById("box").appendChild(newParagraph);
+			
+			var newHeading = document.createElement("h1");
+			var newParagraph = document.createElement("p");
+			var h1Text = document.createTextNode("Did you know?");
+			var paraText = document.createTextNode("Maharana Pratap was almighty and brave of mewad.his capital was chittorgad fort.He fought his first war when he was just a child");
+			
+			newHeading.appendChild(h1Text);
+			newParagraph.appendChild(paraText);
+			document.getElementById("box1").appendChild(newHeading);
+			document.getElementById("box1").appendChild(newParagraph);
+
+		</script>
+
+	</body>
+</html>

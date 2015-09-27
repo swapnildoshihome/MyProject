@@ -1,0 +1,34 @@
+html, body, article, section, div, h1, p {
+	margin: 0;
+	padding: 0;
+}
+.outer {
+	background-color: #9CF;
+	width: 532px;
+	margin: 0 auto;
+	height: 600px;
+	overflow: visible;
+	padding: 10px;
+}
+
+.box {
+	background-color: #B7D19C;
+	width: 200px;
+	padding: 25px;
+	border: black 2px solid;
+	display: inline-block;
+	margin: 5px;
+}
+
+h1 {
+	border-bottom: solid black 1px;
+}
+
+.swap {
+	float: right;
+}
+button {
+	margin: 5px;
+	padding: 5px;
+	width: 100px;
+}

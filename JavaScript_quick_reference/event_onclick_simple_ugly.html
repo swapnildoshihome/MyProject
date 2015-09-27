@@ -1,0 +1,20 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		
+	</head>
+	<body>
+		<button onclick='var newHeading = document.createElement("h1");
+			var newParagraph = document.createElement("p");
+			var h1Text = document.createTextNode("Did you know?");
+			var paraText = document.createTextNode("we cant reuse our code using this technique .this method is not so good.it us just for understanding. ");
+			
+			newHeading.appendChild(h1Text);
+			newParagraph.appendChild(paraText);
+			document.getElementById("details").appendChild(newHeading);
+			document.getElementById("details").appendChild(newParagraph);' >show content</button>
+			<div>
+			<div id="details"></div>
+		</div>
+	</body>
+</html>
