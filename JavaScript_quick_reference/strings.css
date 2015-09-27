@@ -1,0 +1,64 @@
+html,body,header,h1,form,h2,footer{
+	margin:0;
+	padding:0;
+}
+
+html{
+	background:rgb(255,255,255); 
+}
+
+body{
+	width:960px;
+	margin:0 auto 20px;
+	background-color: rgb(235,235,250);
+	border: 1px solid rgb(2,2,2);
+}
+
+header{
+	margin:20px;
+}
+
+h1{
+	font-size: 60px;
+	font:"Comic Sans MS";
+	font-weight: 100;
+	border-bottom: 2px solid rgb(125,125,125);
+	
+}
+
+h2{
+	font-size:30px;
+	font:"Comic Sans MS";
+	font-weight: 100;
+    
+}
+
+form{
+	margin:20px auto;
+	width:500px
+}
+
+footer{
+	margin:20px;
+}
+
+#display {
+	width:500px;
+	height:500px;
+	
+}
+
+button{
+	height:30px;
+	width:100px;
+}
+
+button{
+
+    width: 120px;
+    margin:0 auto;
+}
+
+.container{
+    min-height: 100px;
+}
