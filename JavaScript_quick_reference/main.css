@@ -1,0 +1,85 @@
+html, body, header, section, h1, p, footer {
+    margin: 0;
+    padding: 0;
+
+}
+
+html {
+    height: 100%;
+    background: rgb(0, 0, 0);
+    font-family: "Open Sans";
+    font-weight: 300;
+    font-style: normal;
+
+}
+
+body {
+    min-height: 100px;
+    background: rgb(247, 247,247);
+    width: 940px;
+    margin: 0 auto;
+}
+
+header {
+    height: 30%;
+    padding: 0 10px 0;
+    background: rgb(171, 2, 1);
+    color: rgb(255, 255, 255);
+}
+
+h1 {
+    font-size: 50px;
+    margin: 0 10px 0;
+}
+
+header p {
+    padding: 10px;
+}
+
+section {
+    height: 60%;
+    width: 400px;
+    margin: 10px;
+    float: right;
+    border: 2px rgb(249,153,0) solid;
+    border-radius: 10px;
+    /*color:rgb(249,153,0);*/
+
+    font-size: 15px;
+    font-weight: bold;
+}
+
+h2 {
+    margin: 5px 10px 5px;
+    border-bottom: 1px solid rgb(249,153,0);
+}
+
+table {
+    margin: 0 10px 0;
+
+}
+
+footer {
+    height: 10%;
+    clear: both;
+    background-color: rgb(234,61,51);
+    color:rgb(255,255,255);
+    font-size: 17px;
+    padding: 10px;
+
+}
+footer p{
+    text-align: right;
+}
+
+#result{
+    height: 100px;
+    margin:10px;
+}
+
+#submit_1{
+ height: 30px;
+ width:100%;
+}
+
+
